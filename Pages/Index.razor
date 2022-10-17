@@ -1,0 +1,247 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+@*Locations*@
+<MudText Class="ma-4 mb-16" Typo="Typo.h3" Align="Align.Center">Services</MudText>
+
+<MudPaper Class="d-flex justify-center Align.Center" Elevation="0">
+    <MudGrid Justify="Justify.Center">
+        <MudItem xs="3" md="3" Style="height: 100%;" >
+        <MudCard Elevation="1" Style="height: 100%;">
+        <MudCardHeader>
+        <CardHeaderContent>
+            <MudText Typo="Typo.h4">Front End</MudText>
+        </CardHeaderContent>
+
+        <CardHeaderActions>
+        </CardHeaderActions>
+
+        </MudCardHeader>
+            <MudCardContent>
+            <MudText></MudText>
+            <MudText Typo="Typo.body1">A front end is the graphical user interface of a computer that makes it easier to use and responsible for the visual look.</MudText>
+        </MudCardContent>
+        <MudCardActions>
+            <MudButton Variant="Variant.Text" Color="Color.Primary">Read More</MudButton>
+        </MudCardActions>
+        </MudCard>
+        </MudItem>
+
+        <MudItem xs="3" md="3"  Style="height: 100%;">
+        <MudCard Style="height: 100%;">
+        <MudCardHeader>
+        <CardHeaderContent>
+            <MudText Typo="Typo.h4">Back End</MudText>
+        </CardHeaderContent>
+
+        <CardHeaderActions>
+        </CardHeaderActions>
+
+        </MudCardHeader>
+            <MudCardContent>
+            <MudText Typo="Typo.body1">Experts who build and maintain the mechanisms that process data and perform actions on websites.</MudText>
+        </MudCardContent>
+        <MudCardActions>
+            <MudButton Variant="Variant.Text" Color="Color.Primary">Read More</MudButton>
+        </MudCardActions>
+        </MudCard>
+        </MudItem>
+
+        <MudItem xs="3" md="3" Style="height: 100%;">
+        <MudCard Style="height: 100%;">
+        <MudCardHeader>
+        <CardHeaderContent>
+            <MudText Typo="Typo.h4">Full Stack</MudText>
+        </CardHeaderContent>
+
+        <CardHeaderActions>
+        </CardHeaderActions>
+
+        </MudCardHeader>
+            <MudCardContent>
+            <MudText Typo="Typo.body1">Includes Both Front-end and Back-end</MudText>
+        </MudCardContent>
+        <MudCardActions>
+            <MudButton Variant="Variant.Text" Color="Color.Primary">Read More</MudButton>
+        </MudCardActions>
+        </MudCard>
+        </MudItem>
+    </MudGrid>
+
+    
+</MudPaper>
+
+<MudPaper Class="pa-16 ma-2" Elevation="3">
+
+    <MudPaper Class="pa-6 ma-2" Elevation="0">
+        <MudText Typo="Typo.h3" Align="Align.Center">Contact Us</MudText>
+    </MudPaper>
+
+<MudGrid>
+    <MudItem xs="6">
+        
+        <MudPaper Class="pa-6 ma-2" Elevation="2">
+
+            <MudSelect T="string" Label="Subject" Class="mb-4">
+                <MudSelectItem Value="@("General Enquiry")"></MudSelectItem>
+                <MudSelectItem Value="@("Feedback")"></MudSelectItem>
+                <MudSelectItem Value="@("List Your Property")"></MudSelectItem>
+            </MudSelect>
+                <MudTextField T="string" Label="First Name" Class="mb-4"></MudTextField>
+                <MudTextField T="string" Label="Last name" Class="mb-4"></MudTextField>
+                <MudTextField T="string" Label="Mobile Number" Class="mb-4"></MudTextField>
+                <MudTextField T="string" Lines="5" Label="Message" Class="mb-4"></MudTextField>
+            <MudButton Variant="Variant.Filled" Color="Color.Primary" FullWidth="true">Message</MudButton>  
+
+        </MudPaper>
+        
+    </MudItem>
+    
+
+    <MudItem xs="6">
+        
+         
+            
+            <MudStack Row="true">
+            <MudIconButton Icon="@Icons.TwoTone.LocationOn" Color="Color.Error" aria-label="phone"></MudIconButton>
+                
+                    <MudStack Row="false">
+                        <MudPaper Class="pa-6 ma-2" Elevation="0">
+                            <MudText Typo="Typo.h5">XYZ Road, ABC Building</MudText>
+                            <MudText>Johannesburg, South Africa, RSA</MudText>
+                        </MudPaper>
+                    </MudStack> 
+                
+                
+            </MudStack>
+            
+
+            <MudStack Row="true">
+
+                    <MudIconButton Icon="@Icons.Filled.Phone" Color="Color.Error" aria-label="phone"></MudIconButton>
+                
+                <MudStack Row="false">
+                    <MudPaper Class="pa-6 ma-2" Elevation="0">
+                        <MudText Typo="Typo.h5">(+27) 123-454-6789</MudText>
+                        <MudText>Mon - Sat, 10AM - 6PM</MudText>
+                    </MudPaper>
+                </MudStack> 
+
+            </MudStack>
+            
+            <MudStack Row="true">
+                    <MudIconButton Icon="@Icons.TwoTone.Email" Color="Color.Error" aria-label="email"></MudIconButton>
+                
+                <MudStack Row="false">
+                    <MudPaper Class="pa-6 ma-2" Elevation="0">
+                        <MudText Typo="Typo.h5">info@pitchperfectproperties.com</MudText>
+                        <MudText>Email Us your Query</MudText>
+                    </MudPaper>
+                </MudStack>
+
+            </MudStack>
+
+        
+
+    
+
+         
+    </MudItem>
+    
+</MudGrid>
+</MudPaper>
+
+<MudText Class="ma-4 mb-16" Typo="Typo.h3" Align="Align.Center">Reviews</MudText>
+
+<MudPaper Class="d-flex justify-center Align.Center " Elevation="0">
+    <MudGrid Justify="Justify.Center">
+        <MudItem xs="3" md="3" >
+        
+        <MudCard Elevation="0" Class="border-solid border-2 mud-border-primary pa-4" >
+        <MudCardHeader>
+        <CardHeaderContent>
+        </CardHeaderContent>
+            
+        
+
+        </MudCardHeader>
+            <MudCardContent>
+            <MudStack Row="true">
+            
+                <MudIcon Icon="@Icons.Filled.Star" Color="Color.Warning" ></MudIcon>
+                <MudIcon Icon="@Icons.Filled.Star" Color="Color.Warning" ></MudIcon>
+                <MudIcon Icon="@Icons.Filled.Star" Color="Color.Warning" ></MudIcon>
+                <MudIcon Icon="@Icons.Filled.Star" Color="Color.Warning" ></MudIcon>
+            
+            </MudStack>
+            <MudText Typo="Typo.body1">"We really appreciate you taking the time to share your rating with us. We look forward to seeing you again soon."</MudText>
+        </MudCardContent>
+        <MudCardActions>
+            <MudText Typo="Typo.body1">- elon musk</MudText>
+        </MudCardActions>
+        </MudCard>
+        </MudItem>
+
+        <MudItem xs="3" md="3" >
+        
+        <MudCard Elevation="0" Class="border-solid border-2 mud-border-primary pa-4" >
+        <MudCardHeader>
+        <CardHeaderContent>
+        </CardHeaderContent>
+            
+        
+
+        </MudCardHeader>
+            <MudCardContent>
+            <MudStack Row="true">
+            
+                <MudIcon Icon="@Icons.Filled.Star" Color="Color.Warning" ></MudIcon>
+                <MudIcon Icon="@Icons.Filled.Star" Color="Color.Warning" ></MudIcon>
+                <MudIcon Icon="@Icons.Filled.Star" Color="Color.Warning" ></MudIcon>
+                <MudIcon Icon="@Icons.Filled.Star" Color="Color.Warning" ></MudIcon>
+            
+            </MudStack>
+            <MudText Typo="Typo.body1">"We really appreciate you taking the time to share your rating with us. We look forward to seeing you again soon."</MudText>
+        </MudCardContent>
+        <MudCardActions>
+            <MudText Typo="Typo.body1">- elon musk</MudText>
+        </MudCardActions>
+        </MudCard>
+        </MudItem>
+
+        <MudItem xs="3" md="3" >
+        
+        <MudCard Elevation="0" Class="border-solid border-2 mud-border-primary pa-4" >
+        <MudCardHeader>
+        <CardHeaderContent>
+        </CardHeaderContent>
+            
+        
+
+        </MudCardHeader>
+            <MudCardContent>
+            <MudStack Row="true">
+            
+                <MudIcon Icon="@Icons.Filled.Star" Color="Color.Warning" ></MudIcon>
+                <MudIcon Icon="@Icons.Filled.Star" Color="Color.Warning" ></MudIcon>
+                <MudIcon Icon="@Icons.Filled.Star" Color="Color.Warning" ></MudIcon>
+                <MudIcon Icon="@Icons.Filled.Star" Color="Color.Warning" ></MudIcon>
+            
+            </MudStack>
+            <MudText Typo="Typo.body1">"We really appreciate you taking the time to share your rating with us. We look forward to seeing you again soon."</MudText>
+        </MudCardContent>
+        <MudCardActions>
+            <MudText Typo="Typo.body1">- elon musk</MudText>
+        </MudCardActions>
+        </MudCard>
+        </MudItem>
+    </MudGrid>
+
+    
+</MudPaper>
+
+
+@code {
+
+}
