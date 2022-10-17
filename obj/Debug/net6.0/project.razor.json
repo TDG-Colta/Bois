@@ -8,39 +8,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 1108083271,
-        "Kind": "Components.Component",
-        "Name": "MyApplication.Pages.Index",
-        "AssemblyName": "MyApplication",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyApplication.Pages.Index"
-        }
-      },
-      {
-        "HashCode": -1923345439,
-        "Kind": "Components.Component",
-        "Name": "MyApplication.Pages.Index",
-        "AssemblyName": "MyApplication",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MyApplication.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyApplication.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -387137444,
         "Kind": "Components.Component",
         "Name": "MyApplication.Pages.Counter",
@@ -136,6 +103,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "MyApplication.Pages.Home",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1108083271,
+        "Kind": "Components.Component",
+        "Name": "MyApplication.Pages.Index",
+        "AssemblyName": "MyApplication",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyApplication.Pages.Index"
+        }
+      },
+      {
+        "HashCode": -1923345439,
+        "Kind": "Components.Component",
+        "Name": "MyApplication.Pages.Index",
+        "AssemblyName": "MyApplication",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MyApplication.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyApplication.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
